@@ -1,29 +1,48 @@
-🚀 Apresentando o SWAPIO: Plataforma de Perguntas e Respostas sobre Tecnologia! 🚀
+Este repositório contém o projeto SWAPIO, uma aplicação desenvolvida em Node.js para gerenciar uma plataforma de perguntas e respostas focada em temas tecnológicos. Este projeto foi criado como parte da formação em desenvolvimento Node.js, servindo como uma ferramenta de aprendizado prático.
 
-Dessa vez, trago um dos meus projetos em NODE.JS que não divulguei:
+📂 Estrutura do Documento
 
-SWAPIO!
-Primeiro projeto da minha Formação em NODE.JS que estou em andamento. Ele foi desenvolvido para ser uma plataforma de Q&A (Perguntas e Respostas) focada no mundo da tecnologia! Desenvolvido com Node.js, permitindo a criação de perguntas e respostas sobre os temas tech.
+Descrição do Projeto
+Funcionalidades
+Tecnologias Utilizadas
+Como Contribuir
+Autor
 
-🔧 Tecnologias utilizadas:
+Descrição do Projeto
 
-Node.js: Backend eficiente e escalável.
+O SWAPIO é uma aplicação web que permite a criação, consulta e interação em uma base de perguntas e respostas voltada para a área de tecnologia. Este projeto foi desenvolvido com o objetivo de consolidar os fundamentos do Node.js e explorar ferramentas relacionadas ao desenvolvimento de back-end, interligadas a renderizações dinâmicas de front-end.
 
-Express: Framework para construção do servidor web.
+Embora este projeto não esteja em produção atualmente, planeja-se realizar o deploy em breve, para que a comunidade tecnológica possa utilizá-lo e colaborar.
 
-EJS: Motor de templates para HTML dinâmico.
+Funcionalidades
+Abaixo estão as principais funcionalidades da aplicação:
 
-Sequelize: ORM para interagir com o banco de dados de forma simplificada.
+Cadastro de perguntas e respostas.
+Organização de conteúdos por temas tecnológicos.
+Interface amigável e interativa com renderização de páginas dinâmicas.
+Gerenciamento de banco de dados para armazenamento de informações.
+Escalabilidade para futuras implementações, como votação em perguntas e ranking de respostas.
 
-MySQL2: Cliente rápido para comunicação com o banco de dados.
+Tecnologias Utilizadas
+Este projeto utilizou as seguintes tecnologias e ferramentas:
 
-SQLite3: Banco de dados leve para desenvolvimento local.
+Node.js: Back-end eficiente e escalável.
+Express: Framework para criação e gerenciamento de rotas.
+EJS (Embedded JavaScript): Motor de templates para renderização de páginas dinâmicas.
+Sequelize: ORM utilizado para interagir com bancos de dados.
+MySQL2: Cliente utilizado para integração com banco de dados MySQL.
+SQLite3: Banco de dados leve para ambiente de desenvolvimento local.
+Body-parser: Middleware para processamento de requisições JSON e URL-encoded.
 
-Body-parser: Middleware para tratamento de dados JSON e URL-encoded.
+Como Contribuir
 
-💡 Um projeto de aprendizado:
-O SWAPIO foi desenvolvido enquanto eu aprendia o básico de Node.js e tecnologias relacionadas. Ele não é um projeto profissional ou robusto, mas foi uma excelente oportunidade para colocar em prática e consolidar meus conhecimentos iniciais em Node.js, explorando conceitos como criação de rotas, manipulação de banco de dados e renderização de páginas dinâmicas, além de reforçar minha base em desenvolvimento web.
+Faça um fork deste repositório.
+Crie uma branch para suas modificações: git checkout -b minha-modificacao.
+Realize as alterações desejadas e faça commit: git commit -m "Descrição do commit".
+Envie as alterações para o seu repositório remoto: git push origin minha-modificacao.
+Abra um Pull Request neste repositório para revisão.
 
-🔗 Próximos passos:
-O SWAPIO também não está no ar, mas o plano é realizar o deploy em breve para que todos possam acessar e colaborar!
-Esse projeto foi incrível para aprofundar meus conhecimentos em Node.js e criar uma aplicação funcional e útil para a comunidade tech.
+Autor
+Este projeto foi desenvolvido e é mantido por https://github.com/SamCampel, como parte de sua formação em Node.js. O objetivo principal é o aprendizado prático e o desenvolvimento de competências em tecnologias web modernas.
+
+Se tiver dúvidas, sugestões ou interesse em colaborar, sinta-se à vontade para entrar em contato!
