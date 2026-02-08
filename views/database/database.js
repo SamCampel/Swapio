@@ -1,9 +1,14 @@
+require('dotenv').config();
 const Sequelize = require('sequelize');
 
-//através do sequelize é posiivel criar tabelas no banco de dado usando javascript
-const connection = new Sequelize('guiaperguntas','root','',{
-    host: 'localhost',
-    dialect: 'mysql'
-});
+const connection = new Sequelize(
+    process.env.DB_NAME,
+    process.env.DB_USER,
+    process.env.DB_PASSWORD,
+    {
+        host: process.env.DB_HOST,
+        dialect: process.env.DB_DIALECT
+    }
+);
 
 module.exports = connection;
